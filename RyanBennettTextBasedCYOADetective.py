@@ -23,7 +23,7 @@ def clear_exit():
     exit()
 
 # Function to print text with a typewriter effect
-def slow_print(text, delay=0.025):
+def slow_print(text, delay=0.01):
     for char in text:
         print(char, end='', flush=True)
         time.sleep(delay)
